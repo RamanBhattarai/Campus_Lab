@@ -1,0 +1,5 @@
+MVI A, 0A0h
+MVI B, 20h
+ADD B 
+ADI 50h
+hlt

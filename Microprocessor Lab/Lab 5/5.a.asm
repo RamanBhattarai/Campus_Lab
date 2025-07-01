@@ -1,0 +1,7 @@
+XRA A 
+MVI B, 06h 
+ ADI 25h 
+ DCR B 
+ JNZ 4203h
+ OUT 40h 
+hlt

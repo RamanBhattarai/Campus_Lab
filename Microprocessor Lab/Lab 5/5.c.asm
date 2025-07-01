@@ -1,0 +1,15 @@
+MVI A, 54h
+ LXI D, 7432h 
+ LXI H, 0000h 
+ MVI B, 08h 
+ DAD H 
+ RLC
+JNC 4210h 
+ DAD D 
+ DCR B 
+ JNZ 420Ah 
+ MOV A, H 
+ OUT 40h 
+ MOV A, L 
+ OUT 41h
+hlt

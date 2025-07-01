@@ -1,0 +1,5 @@
+MVI A, 80h
+OUT 43h
+LDA 8050h
+CPI 01h
+hlt

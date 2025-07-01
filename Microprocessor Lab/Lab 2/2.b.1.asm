@@ -1,0 +1,9 @@
+LXI B, 5780h
+LXI D, 4293h
+MOV A, C 
+ADD E 
+MOV C, A 
+MOV A, B
+ADD D 
+MOV B, A
+hlt

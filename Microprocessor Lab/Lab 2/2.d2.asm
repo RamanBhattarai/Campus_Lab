@@ -1,0 +1,5 @@
+LXI B, 341Fh
+ INX B 
+ LXI D, 231Eh
+ DCX D
+hlt

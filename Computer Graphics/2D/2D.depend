@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1675045947 source:e:\my files\bei\computer practical\cg\2d\main.cpp
+	<iostream>
+	<graphics.h>
+	<math.h>
+

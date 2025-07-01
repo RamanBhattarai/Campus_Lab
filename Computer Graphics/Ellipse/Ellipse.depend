@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1674565619 source:e:\my files\bei\computer practical\cg\ellipse\main.cpp
+	<iostream>
+	<graphics.h>
+

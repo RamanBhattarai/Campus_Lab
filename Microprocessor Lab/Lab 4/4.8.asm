@@ -1,0 +1,12 @@
+mvi a,0fh
+sta 8123h
+lda 8123h
+mov b,a
+ani 64
+jnz exit
+mov a,b
+ani 08
+jz exit
+mov a,b
+out 0ah
+exit: hlt
